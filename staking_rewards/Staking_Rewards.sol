@@ -7,8 +7,6 @@ contract StakingRewards {
     IERC20 public immutable rewardsToken;
 
     address public owner;
-
-  
     uint public duration;
   
     uint public finishAt;
